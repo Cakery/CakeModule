@@ -94,11 +94,13 @@ IDontKnow:SetPos( 110, 110 )
 IDontKnow:SetSize( 170, 30 )   
 IDontKnow:SetText( "I don't know what this means!" ) 
 IDontKnow.DoClick=function()
-gui.OpenURL("http://decentgaming.org/wiki/index.php?title=DarkRP_Rules")
+--Add what ever URL you want here
+gui.OpenURL("")
 end
 end)
 
 local function Test(Pan)
 Pan:SetText("")
 end
-hook.Add("OnTextEntryGetFocus","gegdsfergbr",Test)
+
+--hook.Add("OnTextEntryGetFocus","gegdsfergbr",Test)
